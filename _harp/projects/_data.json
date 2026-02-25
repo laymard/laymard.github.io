@@ -1,8 +1,13 @@
 {
   "projects":
   [
+    {"title":"Battle Shapers", 
+      "detail":"I have worked on this brandly new IP from Metric Empire",
+      "cover_image_url" : "img/battle_shapers_cover.jpg",
+      "project_url" : "projects/battle-shapers.html"
+    },
     {"title":"Meet your Maker", 
-      "detail":"I am currently working on this brandly new IP from Behaviour Interactive",
+      "detail":"I have worked on this brandly new IP from Behaviour Interactive",
       "cover_image_url" : "img/meet_your_maker.jpg",
       "project_url" : "projects/meet-your-maker.html"
     },

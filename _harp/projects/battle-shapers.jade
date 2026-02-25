@@ -1,0 +1,41 @@
+extends project-item.jade
+
+block content
+  .container
+    // Portfolio Item Heading
+    h1.my-4
+      | Battle Shapers
+    // Portfolio Item Row
+    .row
+      .col-md-8.embed-responsive.embed-responsive-4by3
+        iframe.embed-responsive-item(src="https://www.youtube.com/embed/2DuU1Od3G0I", frameborder="0", allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", allowfullscreen="")
+      |         
+      .col-md-4
+        h3 Project description
+        |           
+        p(align="justify") 
+          | A well received FPS rogue like, released on Steam. Developped at Metric Empire in Canada. The game feature a lot of replayability, with loadout customization I had the chance to work on.
+        |           
+        h3.my-3 Contributions
+        |           
+        ul
+          li Implementation of Player Abilities
+          |             
+          li Worked on game systems ( Gear Modifier mechanic, Scripted level flow )
+          |             
+          li Added analytics to the game
+          |                          
+          li Memory optimisations
+          |             
+          li Bug resolutions
+        |           
+        h3.my-3 Development details
+        |           
+        ul
+          li Code in C#
+          |             
+          li Usage of Unity Engine
+          |             
+          li Git for version control
+          |             
+          li Unity analytics with SQL
